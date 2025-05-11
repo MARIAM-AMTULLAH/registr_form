@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div>
+    <h1>Registration Form</h1>
+    <form>
+      <label>First Name:
+        <input type="text" name="First_Name" value="Enter First Name">
+      </label> <br> 
+      <label>Last Name:
+        <input type="text"name="Last_Name" value="Enter Last Name">
+      </label>
+      <br>
+
+      <label for="Email">Email:
+        <input type="email" name="email" value="Enter Email Address">
+      </label>
+      <br>
+
+      <label for="password">Password:
+        <input type="password" name="password">
+      </label>
+      <br>
+
+      <label for="Gender">Gender: <br>
+        <input type="radio" name="Gender" value="Male">Male <br>
+        <input type="radio" name="Gender" value="Female">Female <br>
+        <input type="radio" name="Gender" value="Other"> Other <br>
+      </label>
+     
+
+      <label for="Age">Age:
+        <select name="Age" size="1" multiple  >
+          <option value="Age">18</option>
+          <option value="Age">19</option>
+          <option value="Age">20</option>
+          <option value="Age">21</option>
+          <option value="Age">22</option>
+          <option value="Age">23</option>
+          <option value="Age">24</option>
+          <option value="Age">25</option>
+          <option value="Age">26</option>
+          <option value="Age">27</option>
+          <option value="Age">28</option>
+          <option value="Age">29</option>
+          <option value="Age">30</option>
+        </select>
+      </label>
+      <br>
+
+      <label for="Preference">Preferences: <br>
+        <input type="checkbox" name="Preferences" value="Painting">Acrylic Painting <br>
+        <input type="checkbox" name="Preferences" value="Painting">Oil Painting <br>
+        <input type="checkbox" name="Preferences" value="Painting">Water Color Painting <br>
+      </label><br>
+
+      <label for="Occupation">Select Occupation: 
+        <select name="Occupation" id="">
+          <option value="Occupation">Student</option>
+          <option value="Occupation">Business</option>
+          <option value="Occupation">Software Engineer</option>
+          <option value="Occupation">Electronics Engineer</option>
+          <option value="Occupation">Data Scientist</option>
+          <option value="Occupation">Business Analyst</option>
+          <option value="Occupation">HR Manager</option>
+        </select> <br>
+      </label>BIO: 
+      <label for="textarea">
+        <textarea name="Comment" cols="25" rows="7">Share few lines about yourself...</textarea>
+      </label>
+      <br>
+      <button>Reset</button>
+      <button>Submit</button>
+      
+    </form>
+</div>
+</body>
+</html>

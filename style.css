@@ -1,0 +1,17 @@
+div{
+            border-left: 4px inset rgb(255, 252, 252) ;
+            border-right: 4px solid rgb(255, 253, 253) ;
+            margin-left: 30%;
+            margin-right: 30%;
+            background-color:  lightgray;
+        }
+form,h1{
+    margin-left: 1%;
+    
+}
+body{
+    background-color: rgb(125, 158, 219);
+}
+h1{
+    text-align: center;
+}
